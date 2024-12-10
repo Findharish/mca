@@ -1,22 +1,22 @@
 // bitwise operation
-// #include<stdio.h>
-// int main(){
-//     int a,b,c;
-//     printf("enter the a and b\n");
-//     scanf("%d%d",&a,&b);
-//     printf("here we print all the bitwise operators\n");
-//     c=a&b;
-//     printf("a&b=%d\n",c);
-//     c=a/b;
-//     printf("a|b=%d\n",c);
-//     c=a^b;
-//     printf("a^b=%d\n",c);
-//     c=a>>2;
-//     printf("a>>2=%d\n",c);
-//     c=a<<2;
-//     printf("a<<2=%d\n",c);
-//     return 0;
-// }
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    printf("enter the a and b\n");
+    scanf("%d%d",&a,&b);
+    printf("here we print all the bitwise operators\n");
+    c=a&b;
+    printf("a&b=%d\n",c);
+    c=a/b;
+    printf("a|b=%d\n",c);
+    c=a^b;
+    printf("a^b=%d\n",c);
+    c=a>>2;
+    printf("a>>2=%d\n",c);
+    c=a<<2;
+    printf("a<<2=%d\n",c);
+    return 0;
+}
 
 //swap two numbers
 // #include<stdio.h>
